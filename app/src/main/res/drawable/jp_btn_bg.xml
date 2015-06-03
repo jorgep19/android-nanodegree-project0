@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:insetLeft="@dimen/button_inset_horizontal_material"
-    android:insetTop="@dimen/button_inset_vertical_material"
-    android:insetRight="@dimen/button_inset_horizontal_material"
-    android:insetBottom="@dimen/button_inset_vertical_material">
+    android:insetLeft="4dp"
+    android:insetTop="6dp"
+    android:insetRight="4dp"
+    android:insetBottom="6dp">
     <shape android:shape="rectangle"
         android:tint="?attr/colorButtonNormal">
-        <corners android:radius="@dimen/control_corner_material" />
+        <corners android:radius="2dp" />
         <solid android:color="@color/white" />
-        <padding android:left="@dimen/button_padding_horizontal_material"
-            android:top="@dimen/button_padding_vertical_material"
-            android:right="@dimen/button_padding_horizontal_material"
-            android:bottom="@dimen/button_padding_vertical_material" />
+        <padding android:left="8dp"
+            android:top="4dp"
+            android:right="8dp"
+            android:bottom="4dp" />
     </shape>
 </inset>
+
+<!--control_corner_material = 2dp-->
+<!--@dimen/button_inset_horizontal_material = 4dp-->
+<!--@dimen/button_inset_vertical_material = 6dp -->
+<!--@dimen/button_padding_horizontal_material = 8dp-->
+<!--@dimen/button_padding_vertical_material = 4dp-->
